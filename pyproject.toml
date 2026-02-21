@@ -1,0 +1,14 @@
+[project]
+name = "memory-in-agents"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.10",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.14",
+    "langchain-groq>=1.1.2",
+    "langchain-huggingface>=1.2.0",
+    "langgraph>=1.0.8",
+    "langgraph-checkpoint-sqlite>=3.0.3",
+    "python-dotenv>=1.2.1",
+]
